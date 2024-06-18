@@ -7,43 +7,27 @@ function Footer() {
         <div className="grid grid-cols-2 gap-6 mt-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
           {/* Internship by places */}
           <div>
-            <h3 className="text-sm font-bold">Internship by places</h3>
+            <h3 className="text-sm font-bold">Internship / Jobs by Places</h3>
             <div className="flex flex-col items-start mt-4 space-y-4">
-              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">New York</a>
-              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">Los Angeles</a>
+              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">India</a>
+              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">USA</a>
+              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">View More</a>
               {/* Add other cities */}
             </div>
           </div>
 
           {/* Internship by stream */}
           <div>
-            <h3 className="text-sm font-bold">Internship by stream</h3>
+            <h3 className="text-sm font-bold">Internship / Jobs by Stream</h3>
             <div className="flex flex-col items-start mt-4 space-y-4">
-              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">About us</a>
-              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">Careers</a>
+              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">Computer Science</a>
+              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">Ceramic Engineering</a>
+              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">View More</a>
               {/* Add other streams */}
             </div>
           </div>
 
-          {/* Job Places */}
-          <div>
-            <h3 className="text-sm font-bold">Job Places</h3>
-            <div className="flex flex-col items-start mt-4 space-y-4">
-              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">Blog</a>
-              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">Newsletter</a>
-              {/* Add other job places */}
-            </div>
-          </div>
-
-          {/* Jobs by streams */}
-          <div>
-            <h3 className="text-sm font-bold">Jobs by streams</h3>
-            <div className="flex flex-col items-start mt-4 space-y-4">
-              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">Startups</a>
-              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">Enterprise</a>
-              {/* Add other job streams */}
-            </div>
-          </div>
+          
         </div>
 
         {/* Additional sections */}
@@ -52,12 +36,22 @@ function Footer() {
         <div className="grid grid-cols-2 gap-6 sm:grid-cols-3">
           {/* About us */}
           <div>
-            <h3 className="text-sm font-bold">About us</h3>
+            <h3 className="text-sm font-bold">About </h3>
             <div className="flex flex-col items-start mt-4 space-y-4">
-              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">About Us</a>
-              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">Team</a>
+              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">About JobJump</a>
+              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">About Developer & Team</a>
               {/* Add more links */}
             </div>
+            
+          </div>
+          <div>
+            <h3 className="text-sm font-bold">Links </h3>
+            <div className="flex flex-col items-start mt-4 space-y-4">
+            <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">Sign Up</a>
+              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">Blogs</a>
+              {/* Add more links */}
+            </div>
+            
           </div>
 
           {/* Social icons and legal */}
@@ -72,7 +66,7 @@ function Footer() {
                 <i className="fab fa-instagram"></i>
               </div>
             </div>
-            <p className="mt-4 text-sm dark">© Copyright 2023. All Rights Reserved.</p>
+            <p className="mt-4 text-sm dark">© Copyright 2024. All Rights Reserved.</p>
           </div>
         </div>
       </div>
@@ -81,5 +75,6 @@ function Footer() {
 }
 
 export default Footer;
+
 
 
