@@ -27,7 +27,15 @@ function Footer() {
             </div>
           </div>
 
-          
+          <div>
+            <h3 className="text-sm font-bold">Internship/ Jobs by Domain</h3>
+            <div className="flex flex-col items-start mt-4 space-y-4">
+              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">Software Developer</a>
+              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">Buisness Analyst</a>
+              <a href="/" className="transition-colors duration-200 hover:underline hover:text-blue-600">View More</a>
+              {/* Add other streams */}
+            </div>
+          </div>
         </div>
 
         {/* Additional sections */}
