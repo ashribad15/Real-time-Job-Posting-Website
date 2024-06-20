@@ -155,7 +155,7 @@ View details <i class="bi bi-chevron-right"></i>
 
 <div className="logins flex  h-32 mt-8">
 <div className="cont">
-<p className="flex justify-center text-white text-xl items-center m-5 w-30">Empower your career with InternArea today</p>
+<p className="flex justify-center text-white text-xl items-center m-5 w-30">Empower your career with JobJump today</p>
 </div>
 <div className="log flex">
 
