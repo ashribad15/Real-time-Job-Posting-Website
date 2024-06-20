@@ -56,7 +56,7 @@ const filterInternShips=internshipData.filter((item)=>
     <>
    <h1 className='text-center text-3xl font-bold'>Make your dream career a reality
 </h1>
-<p className='text-center text-lg font-bold'>Trending on InternArea 🔥</p>
+<p className='text-center text-lg font-bold'>Trending on JobJump 🔥</p>
 
 <div className="imgs flex justify-center"  id='container'>
 <div className="slide flex mt-10 " id='content'>
@@ -75,7 +75,7 @@ const filterInternShips=internshipData.filter((item)=>
 <div className="infoys">
     <div className="info-intern">
         <div className="mt-16">
-            <h1 className='text-center font-bold'>Latest internships on Intern Area</h1>
+            <h1 className='text-center font-bold'>Latest Internships on JobJump</h1>
         </div>
         <div className="categories flex flex-wrap mt-14">
 <p>POPULAR CATEGORIES :</p>
