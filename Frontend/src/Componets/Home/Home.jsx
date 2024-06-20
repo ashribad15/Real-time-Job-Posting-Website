@@ -172,7 +172,7 @@ View details <i class="bi bi-chevron-right"></i>
                <p class="px-4 py-3 w-5/6 text-center text-sm text-gray-600 font-bold ">Sign in with Google</p>
   </a>
   <a to="/register">
-    <button className='btn6 '> Register</button></a>
+    <button className='btn6 '> Register Now </button></a>
     </div>
 </div>
     </>
