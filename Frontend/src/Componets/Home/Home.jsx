@@ -136,19 +136,19 @@ View details <i class="bi bi-chevron-right"></i>
 <hr />
 <div className="analytics mt-8 flex flex-wrap justify-center items-center text-center">
     <div className="text-block mt-5">
-    <span className='font-bold text-6xl text-blue-600'>300K+</span>
+    <span className='font-bold text-6xl text-blue-600'>300K+&nbsp;</span>
 <p>companies hiring</p>
     </div>
 <div className="text-block mt-5">
-    <span className='font-bold text-6xl text-blue-600'>10K+</span>
+    <span className='font-bold text-6xl text-blue-600'>10K+&nbsp;</span>
     <p>new openings everyday</p>
 </div>
 <div className="text-block mt-5">
-    <span className='font-bold text-6xl text-blue-600'>21Mn+</span>
+    <span className='font-bold text-6xl text-blue-600'>21Mn+&nbsp;</span>
     <p>active students</p>
 </div>
 <div className="text-block mt-5">
-    <span className='font-bold text-6xl text-blue-600'>600K+</span>
+    <span className='font-bold text-6xl text-blue-600'>600K+&nbsp;</span>
     <p>learners</p>
 </div>
 </div>
