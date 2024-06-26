@@ -137,11 +137,11 @@ function Navbar() {
                     </div>
                     <div className="line flex bg-slate-400"></div>
                     <div className="right-section">
-                        <p>Intern at India</p>
-                        <p>Intern at India</p>
-                        <p>Intern at India</p>
-                        <p>Intern at India</p>
-                        <p>Intern at India</p>
+                        <p>Work From Home</p>
+                        <p>Intern at Bengaluru</p>
+                        <p>Intern at Delhi</p>
+                        <p>Intern at Mumbai</p>
+                        <p>View all Internships</p>
                     </div>
                 </div>
             )}
@@ -151,15 +151,15 @@ function Navbar() {
                         <p>Top Locations</p>
                         <p>Profile</p>
                         <p>Top Category</p>
-                        <p>Explore More Internships</p>
+                        <p>Explore More Jobs</p>
                     </div>
                     <div className="line flex bg-slate-400"></div>
                     <div className="right-section">
-                        <p>Intern at India</p>
-                        <p>Intern at India</p>
-                        <p>Intern at India</p>
-                        <p>Intern at India</p>
-                        <p>Intern at India</p>
+                        <p>Work from Home</p>
+                        <p>Jobs at Delhi</p>
+                        <p>Jobs at Bengaluru</p>
+                        <p>Jobs at Pune</p>
+                        <p>View all Jobs</p>
                     </div>
                 </div>
             )}
@@ -246,3 +246,5 @@ function Navbar() {
 }
 
 export default Navbar;
+
+
