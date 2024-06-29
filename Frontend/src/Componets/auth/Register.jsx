@@ -39,7 +39,7 @@ const closeLogin=()=>{
     <div>
       <div className="form">
         <h1>Sing-up and Apply For Free</h1>
-        <p className='para3'>1,50,000+ companies hiring on Internshala</p>
+        <p className='para3'>1,50,000+ companies hiring on JobJump</p>
       <div className="regi">
         <div className="py-6">
           <div className="flex bg-white rounded-lg justify-center shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
