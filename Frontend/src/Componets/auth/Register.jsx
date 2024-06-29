@@ -172,7 +172,7 @@ const closeLogin=()=>{
              </div>
 
              <div className="mt-4 flex items-center justify-between">
-<p className='text-sm'>new to internarea? Register(<span className='text-blue-500 cursor-pointer' onClick={closeLogin}>Student</span>/<span className='text-blue-500 cursor-pointer' onClick={closeLogin}>company</span>) </p>
+<p className='text-sm'>New to JobJump? Register(<span className='text-blue-500 cursor-pointer' onClick={closeLogin}>Student</span>/<span className='text-blue-500 cursor-pointer' onClick={closeLogin}>company</span>) </p>
              </div></div>
              </div>
                 </>
