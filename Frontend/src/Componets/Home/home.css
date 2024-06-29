@@ -1,193 +1,159 @@
-/* Carousel Styles */
 .carousel {
   position: relative;
-  width: 784px; /* Width of the images */
-  height: 522px; /* Height of the images */
   overflow: hidden;
-  margin: 0 auto; /* Center the carousel */
+  height: 400px;
+  max-width: 80%;
+  margin: 30px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .slide {
   display: flex;
-  width: calc(784px * 4); /* Width of all images combined */
-  height: 100%;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 2s ease-in-out; /* Slower transition for smoother sliding */
+  width: 400%; /* Adjusted to hold 4 slides */
 }
 
 .slide img {
-  width: 784px; /* Width of the images */
-  height: 522px; /* Height of the images */
+  width: 25%; /* Each image takes up 25% */
+  height: 100%;
   object-fit: cover;
-  flex-shrink: 0;
+  border-radius: 15px; /* Rounded corners for images */
+  animation: fadeIn 2s; /* Slower fade-in */
 }
 
-/* Button Styles */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 .back, .next {
-  background-color: #fff;
-  border: 1px solid;
-  color: gray;
-  border-radius: 50%;
-  width: 30px;
-  font-weight: bolder;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  display: none; /* Hiding the arrow buttons */
 }
 
-.back {
-  left: -40px;
+.categories .category {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  transition: background-color 0.3s, color 0.3s;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
-.next {
-  right: -40px;
+.categories .category:hover {
+  background-color: #007bff;
+  color: white;
 }
 
-.BUttons {
+.infoys, .info-job {
+  padding: 0 15px;
+}
+
+.internships, .jobs {
+  display: flex;
+  overflow-x: auto;
+  padding: 20px 0;
+  scroll-behavior: smooth;
+}
+
+.int-1, .job-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-right: 15px;
+  width: 250px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.int-1:hover, .job-card:hover {
+  transform: translateY(-5px);
+}
+
+.int-1 p, .job-card p, .job-card small {
+  margin: 0;
+}
+
+.internship-info, .job-info {
+  display: flex;
+  gap: 10px;
+}
+
+.more {
+  align-items: center;
+}
+
+.flex.BUttons {
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+button {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+button.back, button.next {
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
   display: flex;
   justify-content: center;
-  width: 100%;
+  align-items: center;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.7);
 }
 
-/* Additional Styles */
-.imgs {
-  overflow-x: hidden;
-  width: 784px; /* Width of the container matching the image width */
-  margin: 0 auto;
-  position: relative;
+button.back:hover, button.next:hover {
+  background: rgba(0, 0, 0, 0.9);
 }
 
-.category {
-  margin-top: 23px;
-  border: 1px solid #dddddd;
-  border-radius: 15px;
-  width: 140px;
-  text-align: center;
-  cursor: pointer;
-  margin-top: 4px;
-}
-
-.category:active {
-  background: #078edd;
-  color: aliceblue;
-}
-
-.internships {
-  margin-top: 45px;
-  background: #fafafa;
-  white-space: nowrap;
-  position: relative;
-  overflow-x: hidden;
-}
-
-.int-1 {
-  width: 80%;
-  margin-left: 23px;
-  background: #ffff;
-  box-shadow: 0px 0px 2px -2px black;
-  border-radius: 12px;
-}
-
-.int-1 p, .int-1 span, .int-1 small {
-  margin-left: 7px;
-}
-
-#boxer {
-  width: 150px;
-  margin-left: 12px;
-  border: 1px solid #dddddd;
-}
-
-.log {
-  position: relative;
-  left: 35%;
-}
-
-.info-inter, .info-job, .infoys {
-  background: #fafafa;
-}
-
-.internShip-Info {
-  width: 116%;
-  position: relative;
-  height: 291px;
-}
-
-#buttons {
-  position: relative;
-  left: 53%;
-  top: 24%;
-  width: 180px;
-  font-size: 16px;
+.view-all-internships {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
-.btn6 {
-  margin-left: 24px;
-  width: 180px;
-  margin-top: 5px;
-  background: white;
-  outline: none;
+.view-all-internships button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s;
 }
 
-.log {
-  background: #0665c9;
+.view-all-internships button:hover {
+  background: #0056b3;
 }
 
-.logins {
-  background: #0665c9;
-  text-align: center;
-  font-weight: bold;
-}
-
-.BUttons {
-  margin: 22px;
-}
-
-#admin {
-  margin-top: 26px;
-}
-
-@media screen and (max-width: 768px) {
-  .internships {
-      width: 90%;
-      background: #fafafa;
-      white-space: nowrap;
-      position: relative;
-      left: 3%;
-      overflow-x: scroll;
+@media (max-width: 768px) {
+  .carousel {
+      max-width: 100%;
+      height: 300px;
   }
-  .int-1 {
+
+  .slide img {
       width: 100%;
-      height: 90%;
-      margin-left: 4rem;
+      height: 300px;
   }
-  .back, .next {
-      display: none;
-  }
-  .slide_Img {
-      width: 45%;
-  }
-  #imageSlider img {
-      height: 100%;
-      flex-shrink: 0;
-      width: 200px;
-      margin-right: 8px;
-  }
-  .log {
-      position: relative;
-      left: 0%;
-  }
-  .imgs {
-      overflow-x: scroll;
+
+  .categories .category {
+      margin: 5px;
+      padding: 5px 10px;
   }
 }
-
-@media (max-width: 480px) {
-  .logins {
-      display: none;
-  }
-  .slide_Img {
-      width: 80%;
-  }
-}
-
