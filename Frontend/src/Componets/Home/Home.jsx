@@ -92,7 +92,7 @@ const Home = () => {
             </div>
 
             <div className="flex justify-center items-center mt-5">
-                <Link to="/internships">
+                <Link to="/Internship">
                     <button className="flex justify-center items-center py-2 px-4 bg-blue-500 text-white rounded-full">
                         View All Internships
                     </button>
