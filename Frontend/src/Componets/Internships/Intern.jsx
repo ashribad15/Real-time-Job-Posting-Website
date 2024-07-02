@@ -26,6 +26,7 @@ const [InternData,setInternData]=useState([])
         try {
         const response= await axios.get(`https://internshipbackend-vwja.onrender.com/api/internship`)
         setInternData(response.data)
+        setFilterInternship(response.data)
         console.log(response.data)
     } catch (error) {
            console.log(error) 
