@@ -27,7 +27,7 @@ const Home = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentSlide((prevSlide) => (prevSlide + 1) % 4);
-        }, 7000); // Adjusted the interval to 7 seconds for a slower transition
+        }, 7000); 
         return () => clearInterval(interval);
     }, []);
 
