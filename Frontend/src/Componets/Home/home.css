@@ -10,16 +10,16 @@
 
 .slide {
   display: flex;
-  transition: transform 2s ease-in-out; /* Slower transition for smoother sliding */
-  width: 400%; /* Adjusted to hold 4 slides */
+  transition: transform 2s ease-in-out; 
+  width: 400%; 
 }
 
 .slide img {
-  width: 25%; /* Each image takes up 25% */
+  width: 25%; 
   height: 100%;
   object-fit: cover;
-  border-radius: 15px; /* Rounded corners for images */
-  animation: fadeIn 2s; /* Slower fade-in */
+  border-radius: 15px; 
+  animation: fadeIn 2s; 
 }
 
 @keyframes fadeIn {
@@ -28,7 +28,7 @@
 }
 
 .back, .next {
-  display: none; /* Hiding the arrow buttons */
+  display: none; 
 }
 
 .categories .category {
